@@ -26,7 +26,9 @@ This documentation explains the code and the involved tables that are used to tr
 ## 📈 Final Dashboard
 My final dashboard can be accessed at the following link:  
 
-[Dashboard on Looker Studio](https://lookerstudio.google.com/reporting/f19786e8-759a-4a74-974b-dc005c91631a)
+-[Dashboard on Looker Studio (English)](https://lookerstudio.google.com/reporting/8a78e8e0-112d-402e-8e24-c602b5a6582d)
+
+-[Tablero en Looker Studio (Spanish)](https://lookerstudio.google.com/reporting/f19786e8-759a-4a74-974b-dc005c91631a)
 
 ---
 
