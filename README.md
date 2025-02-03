@@ -21,5 +21,8 @@ This documentation explains the code and the involved tables that are used to tr
   - **Foreign Keys:** Include keys that relate to dimension tables to provide contextual details (e.g., linking a course completion to an employee or course).
   - **High Volume:** Generally contain a large number of records as they capture each event or transaction.
 
+[View the SQL Structure documentation](<SQL Structure.md>)
+
+
 
 
