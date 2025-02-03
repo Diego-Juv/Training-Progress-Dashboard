@@ -1,3 +1,18 @@
+## 🚀 Overall Purpose
+
+The overall objective of this code and its supporting tables is to:
+
+- **Determine First Completions:**  
+  Identify the first instance of course completion for each employee-course pair.
+
+- **Create a Comprehensive Dataset:**  
+  Generate a complete list of all possible employee-course combinations, indicating course completion status (1 for completed, 0 for pending).
+
+- **Aggregate and Analyze Data:**  
+  Group the data by relevant organizational dimensions (department, address, year of entry) to calculate key performance metrics.
+
+--- 
+ 
 ## 🔍 Code Structure Overview
 
 ### 1. CTE `primeros_finalizados`
@@ -10,7 +25,7 @@
   - Uses the `ROW_NUMBER()` window function partitioned by `id_empleado` and `id_curso`, ordering by `fecha_finalizacion` in ascending order.
   - Renames `fecha_finalizacion` as `primer_fecha` and assigns a sequential number to each record so that only the first completion (where the number is 1) is considered.
 
----
+
 
 ### 2. CTE `Datos`
 
@@ -55,20 +70,6 @@
   - Utilizes the `LAG` window function to retrieve the previous year's `Completados` and `Total` values (based on `año_ingreso`) for each `departamento` and `direccion` combination.
   - Orders the final output by `departamento`, `direccion`, and `año_ingreso` for clear analysis.
 
----
 
-
-## 🚀 Overall Purpose
-
-The overall objective of this code and its supporting tables is to:
-
-- **Determine First Completions:**  
-  Identify the first instance of course completion for each employee-course pair.
-
-- **Create a Comprehensive Dataset:**  
-  Generate a complete list of all possible employee-course combinations, indicating course completion status (1 for completed, 0 for pending).
-
-- **Aggregate and Analyze Data:**  
-  Group the data by relevant organizational dimensions (department, address, year of entry) to calculate key performance metrics.
 
 
