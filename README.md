@@ -22,6 +22,14 @@ This documentation explains the code and the involved tables that are used to tr
   - **High Volume:** Generally contain a large number of records as they capture each event or transaction.
 
 ---
+
+## 📈 Final Dashboard
+My final dashboard can be accessed at the following link:  
+
+[Dashboard on Looker Studio](https://lookerstudio.google.com/reporting/f19786e8-759a-4a74-974b-dc005c91631a)
+
+---
+
 ## 📄 MySQL Structure
 
 [View the SQL Structure documentation](<SQL Structure.md>)
