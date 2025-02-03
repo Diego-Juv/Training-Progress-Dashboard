@@ -17,6 +17,8 @@ The overall objective of this code and its supporting tables is to:
 
 ### 1. CTE `primeros_finalizados`
 
+![SQL IMAGES](imagenes/PT2.png)
+
 - **Purpose:**  
   Identify, for each combination of employee and course, the **first date** when the course was completed.
 
@@ -28,6 +30,8 @@ The overall objective of this code and its supporting tables is to:
 
 
 ### 2. CTE `Datos`
+
+![SQL IMAGES](imagenes/PT4.png)
 
 - **Purpose:**  
   Generate a detailed dataset that includes every combination of employees and courses, indicating whether each course was completed or not.
@@ -45,6 +49,9 @@ The overall objective of this code and its supporting tables is to:
 
 ### 3. CTE `Datos_agrupados`
 
+![SQL IMAGES](imagenes/PT5.png)
+
+
 - **Purpose:**  
   Consolidate the detailed data by grouping it according to organizational dimensions such as **department**, **address**, and **year of entry**.
 
@@ -56,6 +63,8 @@ The overall objective of this code and its supporting tables is to:
 ---
 
 ### 4. Final Query
+
+![SQL IMAGES](imagenes/PT6.png)
 
 - **Purpose:**  
   Present the final report with aggregated data, including year-over-year comparisons.
