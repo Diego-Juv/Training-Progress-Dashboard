@@ -35,5 +35,26 @@ My final dashboard can be accessed at the following link:
 [View the SQL Structure documentation](<SQL Structure.md>)
 
 
+   🧑‍💻 SQL Skills Used:
+
+- **WITH**: Defines Common Table Expressions (CTEs) to create temporary result sets that can be referenced within the main query.
+
+- **CROSS JOIN**: Produces a Cartesian product of two tables, pairing each row from the first table with every row from the second.
+
+- **LEFT JOIN**: Returns all rows from the left table and the matched rows from the right table; if no match is found, NULLs are returned for columns from the right table.
+
+- **CASE**: Implements conditional logic to return specific values based on defined conditions.
+
+- **ROW_NUMBER() OVER (PARTITION BY... ORDER BY...)**: Assigns a unique sequential integer to rows within a partition of the result set, ordered by specified columns.
+
+- **PARTITION BY**: Divides the result set into partitions to which the ROW_NUMBER() function is applied.
+
+- **ORDER BY**: Determines the sequence in which rows are returned or processed.
+
+- **GROUP BY**: Aggregates data by grouping rows that share the same values in specified columns.
+
+- **SUM()**: Calculates the total sum of a numeric column.
+
+- **LAG() OVER (PARTITION BY... ORDER BY...)**: Accesses data from a previous row in the same result set without the need for a self-join.
 
 
