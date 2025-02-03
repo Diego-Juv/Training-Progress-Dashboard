@@ -1,4 +1,4 @@
-## 🚀 Overall Purpose
+## Overall Purpose
 
 The overall objective of this code and its supporting tables is to:
 
